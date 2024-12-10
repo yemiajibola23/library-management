@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block content %}
+<form method="POST">
+    <label>Title: <input type="text" name="title"></label><br>
+    <label>Author: <input type="text" name="author"></label><br>
+    <label>Published Date: <input type="text" name="published_date"></label><br>
+    <label>Genre: <input type="text" name="genre"></label><br>
+    <button type="submit">Add Book</button>
+</form>
+{% endblock %}
